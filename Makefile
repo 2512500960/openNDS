@@ -6,7 +6,7 @@ CFLAGS+=-Isrc
 LDFLAGS+=-pthread
 LDLIBS=-lmicrohttpd
 
-STRIP=yes
+STRIP=no
 
 NDS_OBJS=src/auth.o src/client_list.o src/commandline.o src/conf.o \
 	src/debug.o src/fw_iptables.o src/main.o src/http_microhttpd.o src/http_microhttpd_utils.o \
